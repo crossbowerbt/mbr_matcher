@@ -125,11 +125,8 @@ my %couples = (
 );
 
 sub match {
-    my $mbr  = shift;
-    my $code = shift;
-
-    my @mbr  = @{ $mbr };
-    my @code = @{ $code };
+    my @mbr  = @{ (shift) };
+    my @code = @{ (shift) };
 
     my $perfect_match = true;
     my $matching_bytes = 0;
@@ -175,7 +172,7 @@ sub main {
     my $best_match = 0;
     my $best_match_name;
 
-    print "MBR analysis results ():\n\n";
+    print "MBR analysis results:\n\n";
 
     foreach my $key (keys %couples) {
         my ($perfect, $bytes, $total_bytes);

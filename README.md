@@ -10,7 +10,7 @@ Usage Example
 
 ```
 $ perl ./mbr_matcher.pl ../analysis/mbr-win-server-2008
-MBR analysis results ():
+MBR analysis results:
 
         DOS or Windows 95a MBR code:	3/139	 2%
         Windows 2000 or XP MBR code:	14/300	 4%
