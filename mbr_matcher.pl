@@ -117,7 +117,7 @@ my @DOS_WIN_95A_MBR_CODE = qw {
 };
 
 my %couples = (
-    "Windows 7 MBR code"              => \@WIN_7_MBR_CODE,
+    "Windows 7/8/8.1/10 MBR code"     => \@WIN_7_MBR_CODE,
     "Windows Vista MBR code"          => \@WIN_VISTA_MBR_CODE,
     "Windows 2000 or XP MBR code"     => \@WIN_2K_XP_MBR_CODE,
     "Windows 95b, 98 or Me MBR code"  => \@WINDOWS_95B_ME_MBR_CODE,
